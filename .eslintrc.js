@@ -1,3 +1,8 @@
 module.exports = {
-  extends: "airbnb-typescript-prettier"
+  extends: 'airbnb',
+  plugins: ['react', 'jsx-a11y', 'import', 'prettier'],
+  rules: {
+    'prettier/prettier': 'error',
+    semi: [2, 'never']
+  }
 }
