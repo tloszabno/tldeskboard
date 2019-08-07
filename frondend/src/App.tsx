@@ -2,7 +2,7 @@ import React from 'react'
 import {TodoWidget} from "./components/todowidget/TodoWidget";
 
 const App: React.FC = () => {
-  return <div className="container-fluid">
+  return <div>
     <TodoWidget/>
   </div>
 }
