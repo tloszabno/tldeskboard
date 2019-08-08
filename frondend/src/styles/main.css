@@ -1,4 +1,15 @@
+/*body {*/
+/*    background-image: url("../images/background.jpg");*/
+/*    background-size: cover;*/
+
+/*}*/
+
+
 body {
-    background-image: url("../images/background.jpg");
-    background-size: cover;
+    background: linear-gradient(45deg, #1870ed 0, #f18f88 100%);
+    font-family: 'Montserrat', 'sans-serif';
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
