@@ -7,6 +7,8 @@
     padding: 10px 10px;
     box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.15), 0 15px 90px 30px rgba(0, 0, 0, 0.25);
     display: flex;
+    font-family: 'Montserrat', 'sans-serif';
+
 }
 .clock-col {
     text-align: center;
