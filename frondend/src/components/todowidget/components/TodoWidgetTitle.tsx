@@ -1,9 +1,13 @@
 import React from 'react'
 
-export const TodoWidgetTitle: React.FC = () => {
+interface Props {
+    title: string
+}
+
+export const TodoWidgetTitle: React.FC<Props> = ({title}) => {
   return (
     <>
-      <h1>Title TODO</h1>
+      <h3>{title}</h3>
     </>
   )
 }

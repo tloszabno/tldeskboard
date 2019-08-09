@@ -12,11 +12,13 @@
     "@types/node": "12.7.0",
     "@types/react": "16.8.24",
     "@types/react-dom": "16.8.5",
+    "@types/styled-components": "^4.1.18",
     "material-icons": "^0.3.1",
     "moment": "^2.24.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1",
+    "styled-components": "^4.3.2",
     "typeface-roboto": "^0.0.75",
     "typescript": "3.5.3"
   },
