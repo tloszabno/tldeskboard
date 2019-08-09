@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Todo } from '../../../types/types'
+import { Todo } from '../../../../../common/domainTypes'
 
 const ItemDiv = styled.div`
   width: 100%;

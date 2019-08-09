@@ -1,10 +1,6 @@
 import { Request, Response } from "express";
+import { Todo } from '../../../common/domainTypes'
 
-//TODO: use somehow Todos from frontend
-interface Todo {
-  name: string;
-  dueDate?: string;
-}
 
 export const TodoController = (request: Request, response: Response) => {
   const todoList: Todo[] = [

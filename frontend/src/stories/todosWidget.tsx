@@ -1,8 +1,8 @@
 import React from 'react'
 
 import { storiesOf } from '@storybook/react'
-import { Todo } from '../types/types'
 import { TodoWidget } from '../components/todowidget/TodoWidget'
+import { Todo } from '../../../common/domainTypes'
 
 storiesOf('TodosWidget', module)
   .add('Widget with simple todos', () => <TodoWidget title={'Domowe TODO'} todos={todos} />)

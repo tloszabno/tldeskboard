@@ -1,7 +1,7 @@
 import React from 'react'
 import { ClockWidget } from './components/clock/ClockWIdget'
 import { TodoWidget } from './components/todowidget/TodoWidget'
-import { Todo } from './types/types'
+import { Todo } from '../../common/domainTypes'
 
 const App: React.FC = () => {
   return (

@@ -1,7 +1,7 @@
 import React from 'react'
 import { TodoWidgetTitle } from './components/TodoWidgetTitle'
 import { TodoWidgetItem } from './components/TodoWidgetItem'
-import { Todo } from '../../types/types'
+import { Todo } from '../../../../common/domainTypes'
 
 interface Props {
   title: string
