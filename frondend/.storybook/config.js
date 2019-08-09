@@ -1,9 +1,9 @@
 import { configure } from '@storybook/react';
 
 function loadStories() {
-  require('../src/stories/index');
-  require('../src/stories/clock');
-  require('../src/stories/todosWidget');
+  require('../src/frontend/stories/index');
+  require('../src/frontend/stories/clock');
+  require('../src/frontend/stories/todosWidget');
 }
 
 configure(loadStories, module);
