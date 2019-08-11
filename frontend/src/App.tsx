@@ -2,21 +2,18 @@ import React from 'react'
 import { ClockWidget } from './components/clock/ClockWIdget'
 import { TodoWidget } from './components/todowidget/TodoWidget'
 import { Todo } from '../../common/domainTypes'
+import { useApi } from './hooks/useApi.js'
 
-const App: React.FC = () => {
+const App:React.FC = () => {
+  const [data, loading, error] = useApi<Todo[]>('/api/todo', [])
   return (
     <>
       <div>
-        <ClockWidget />
-        <TodoWidget title={'Domowe TODO'} todos={todos} maxItems={2}/>
+        <ClockWidget/>
+        <TodoWidget title={'Domowe TODO'} todos={data}/>
       </div>
     </>
   )
 }
-
-const todos: Todo[] = [
-  { name: 'ogarnij prezent' },
-  { name: 'ogarnij obiad', dueDate: '2019-08-08' }
-]
 
 export default App
